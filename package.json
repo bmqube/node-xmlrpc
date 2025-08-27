@@ -9,7 +9,7 @@
     "xml",
     "rpc"
   ],
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/bmqube/node-xmlrpc",
   "author": "BM Monjur Morshed",
   "repository": {
