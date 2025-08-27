@@ -9,7 +9,7 @@
     "xml",
     "rpc"
   ],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/bmqube/node-xmlrpc",
   "author": "BM Monjur Morshed",
   "repository": {
@@ -28,5 +28,8 @@
   "scripts": {
     "build": "tsc"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "dist"
+  ]
 }
