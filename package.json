@@ -1,7 +1,7 @@
 {
   "name": "@bmqube/xmlrpc",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/xmlrpc.mjs",
+  "types": "dist/xmlrpc.d.mts",
   "description": "A pure TypeScript XML-RPC client and server. Forked from (https://github.com/baalexander/node-xmlrpc)",
   "keywords": [
     "xml-rpc",
@@ -9,7 +9,7 @@
     "xml",
     "rpc"
   ],
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/bmqube/node-xmlrpc",
   "author": "BM Monjur Morshed",
   "repository": {
