@@ -22,5 +22,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           echo "Publishing to NPM..."
-          npm install
-          npm publish --access public --no-git-checks
+          npm install -g pnpm
+          pnpm install 
+          pnpm build
+          pnpm publish --access public --no-git-checks
