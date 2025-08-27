@@ -1,3 +1,6 @@
 node_modules
 .idea/
 node-xmlrpc.iml
+dist
+tsconfig.tsbuildinfo
+pnpm-lock.yaml
