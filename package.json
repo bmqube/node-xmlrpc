@@ -1,5 +1,5 @@
 {
-  "name": "xmlrpc-mod",
+  "name": "@bmqube/xmlrpc",
   "description": "A pure JavaScript XML-RPC client and server. Forked from (https://github.com/baalexander/node-xmlrpc)",
   "keywords": [
     "xml-rpc",
@@ -7,7 +7,7 @@
     "xml",
     "rpc"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": false,
   "homepage": "https://github.com/bmqube/node-xmlrpc",
   "author": "BM Monjur Morshed",
