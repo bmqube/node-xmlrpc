@@ -1,5 +1,5 @@
 // Deserializer.mts
-import * as sax from "sax";
+import sax from "sax";
 // If `date_formatter` is CommonJS and you *don't* use `esModuleInterop`,
 // prefer:  import dateFormatter from "./date_formatter.js";  (Node ESM default import gets CJS exports)
 // If your tooling complains, turn on `esModuleInterop` or switch to:
