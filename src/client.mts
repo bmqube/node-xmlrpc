@@ -181,6 +181,8 @@ export default class Client {
       } else {
         this.headersProcessors.parseResponse(response.headers);
 
+        console.log({ response: JSON.stringify(response, null, 2) });
+
         const deserializer = new Deserializer(options.responseEncoding);
 
         deserializer.deserializeMethodResponse(response, (err: any, result: any) => {
